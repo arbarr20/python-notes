@@ -36,4 +36,3 @@ if __name__ == '__main__':
     p = subprocess.Popen(['python3','busproc.py'],stdin=subprocess.PIPE)    
     print(f"este es el pipeline del hijo:{p.stdin}")
     xml.sax.parse("allroutes.xml",EventHandler(buses_to_dicts(sendto(p.stdin))))
-rewer
