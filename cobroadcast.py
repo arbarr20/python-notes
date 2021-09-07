@@ -23,8 +23,9 @@ def follow(thefile, target):
 def grep(pattern, target):
     while True:
         line = (yield)           # Recibe la linea
-        if pattern in line:
+        if pattern in line:            
             target.send(line)    # La envia a la proxina estación
+        
 
 # A sink. Corrutina Final que recibe Tosa la data de todos los Targerts,
 #se odria saturar
@@ -32,7 +33,7 @@ def grep(pattern, target):
 def printer():
     while True:
         line = (yield)
-        print (line,)
+        print(line)
         
 
 # Transmita una transmisión a múltiples objetivos
@@ -40,7 +41,7 @@ def printer():
 def broadcast(targets):
     while True:
         item = (yield)
-        for target in targets:
+        for target in targets:            
             target.send(item)
 
 
