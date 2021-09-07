@@ -41,8 +41,7 @@ def printer():
 def broadcast(targets):
     while True:
         item = (yield)
-        for target in targets:
-            print(f"Enviando item: {item} a: {target}")
+        for target in targets:            
             target.send(item)
 
 
