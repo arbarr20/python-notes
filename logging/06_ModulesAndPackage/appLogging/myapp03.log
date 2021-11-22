@@ -1,0 +1,8 @@
+DEBUG:ModuleFindCaller:logger Starterd
+DEBUG:appLogging.LoggerFindCaller:Invoking make_call()
+DEBUG:packageA1.ModuleA4:caller info ('/Users/programador1/Documents/aprendiendo_python/formatomd/depuracion/files/big-examples/06_ModulesAndPackage/ModuleFindCaller.py', 12, 'find_caller_demo', 'Stack (most recent call last):\n  File "/Users/programador1/Documents/aprendiendo_python/formatomd/depuracion/files/big-examples/06_ModulesAndPackage/ModuleFindCaller.py", line 14, in <module>\n    find_caller_demo()\n  File "/Users/programador1/Documents/aprendiendo_python/formatomd/depuracion/files/big-examples/06_ModulesAndPackage/ModuleFindCaller.py", line 12, in find_caller_demo\n    make_call()')
+DEBUG:packageA1.ModuleA4:generated 16 bytes token [a1a095085dd6868e551ee0ad22afa93e ]
+DEBUG:packageA1.ModuleA4:generated 16 bytes token [335010fa5acfccfbcddd30c016a1d428 ]
+DEBUG:packageA1.ModuleA4:generated 16 bytes token [34b22760c2b14dd7607eb92029698788 ]
+DEBUG:packageA1.ModuleA4:generated 16 bytes token [8b369995fba6450a6b9c47d9617fe16d ]
+DEBUG:packageA1.ModuleA4:generated 16 bytes token [0822b208aea70c6d11c3f4b1498dc0c3 ]

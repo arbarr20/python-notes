@@ -1,0 +1,5 @@
+ERROR:root:Division by Zero is performed
+Traceback (most recent call last):
+  File "/Users/programador1/Documents/aprendiendo_python/formatomd/depuracion/files/big-examples/06_ModulesAndPackage/appLogging/LoggingExeption.py", line 6, in <module>
+    1/0
+ZeroDivisionError: division by zero

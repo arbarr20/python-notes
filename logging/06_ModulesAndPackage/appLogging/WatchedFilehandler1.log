@@ -1,0 +1,16 @@
+CRITICAL:11/15/2021 07:38:15 PM:esto es cirtico
+DEBUG:11/15/2021 07:38:15 PM:esto es un debug
+co
+DEBUG:2021-11-15 19:38:15,722:esto es un debug
+CRITICAL:11/15/2021 07:38:29 PM:esto es cirtico
+CRITICAL:2021-11-15 19:38:29,004:esto es cirtico
+DEBUG:11/15/2021 07:38:29 PM:esto es un debug
+DEBUG:2021-11-15 19:38:29,004:esto es un debug
+CRITICAL:11/15/2021 07:38:30 PM:esto es cirtico
+CRITICAL:2021-11-15 19:38:30,334:esto es cirtico
+DEBUG:11/15/2021 07:38:30 PM:esto es un debug
+DEBUG:2021-11-15 19:38:30,334:esto es un debu
+CRITICAL:11/15/2021 07:39:16 PM:esto es cirtico
+CRITICAL:2021-11-15 19:39:16,005:esto es cirtico
+DEBUG:11/15/2021 07:39:16 PM:esto es un debug
+DEBUG:2021-11-15 19:39:16,006:esto es un debug
