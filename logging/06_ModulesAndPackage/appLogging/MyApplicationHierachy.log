@@ -1,0 +1,6 @@
+10/11/2021 09:26:06 AM : INFO : LoggerHierachy : root :  Hierachy 1 es created
+10/11/2021 09:26:06 AM : INFO : ModuleA2 : packageA1.ModuleA2 :  Message from packageA1 -> ModuleA2
+10/11/2021 09:26:06 AM : INFO : ModuleB2 : packageB1.ModuleB2 :  Message from packageB1 -> ModuleB2
+10/11/2021 09:27:26 AM : INFO : LoggerHierachy : root :  Hierachy 1 es created
+10/11/2021 09:27:26 AM : INFO : ModuleA2 : packageA1.ModuleA2 :  Message from packageA1 -> ModuleA2
+10/11/2021 09:27:26 AM : INFO : ModuleB2 : packageB1.ModuleB2 :  Message from packageB1 -> ModuleB2
