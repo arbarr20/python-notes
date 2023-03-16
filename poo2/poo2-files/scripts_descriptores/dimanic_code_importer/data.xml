@@ -1,0 +1,19 @@
+<structures>
+  <structure name="Stock">
+    <field type="SizedRegexString" maxlen="6" pat="'[A-Z]+$'">nombre</field>
+    <field type="PosInteger">edad</field>
+    <field type="PosFloat">salario</field>
+  </structure>
+
+  <structure name="Point">
+    <field type="Integer">x</field>
+    <field type="Integer">y</field>
+  </structure>
+
+ <structure name="Address">
+   <field type="String">hostname</field>
+   <field type="Integer">port</field>
+ </structure>
+</structures>
+
+
