@@ -15,6 +15,7 @@ nivel de registro de DEBUG o superior.
 logging.basicConfig(format='[%(threadName)s] %(message)s', level=logging.DEBUG)
 
 
+# Heredas de Thread y redefines run().
 class CountdownThread(threading.Thread):
     """
     Un hilo que cuenta hacia atrás desde un número entero hasta cero.
@@ -56,10 +57,12 @@ class CountdownThread(threading.Thread):
             self.count -= 1
             time.sleep(1)
         return
+    #  Los hilos se ejecutan hasta que el método run() se detiene.
 
 
 if __name__ == '__main__':
     logging.info("Inicia la ejecución del programa")
+    # Para lanzar, crea objetos de hilo y llama a start().
     t1 = CountdownThread(5)
     t1.start()
     t2 = CountdownThread(10)
