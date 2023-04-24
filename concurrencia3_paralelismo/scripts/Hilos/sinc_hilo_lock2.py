@@ -1,3 +1,8 @@
+# Archivo: sinc_hilo_lock2.py
+# Autor: Arbarr20 y ayuda online
+# Fecha: 17/03/2023
+# Descripción: Sincronización de hilos con lock y with.
+
 import threading
 import time
 import logging
@@ -28,6 +33,7 @@ if __name__ == "__main__":
     t2.start()
     t1.join()
     t2.join()
-    # aunque estamos diciendo que un hilo espere hasta que el otro termine,
-    # observe la ejecución del script y vera que hay la secuencia tiene errores.
+    # aunque estamos diciendo que no se muestre el valor del hilo principal, hata que los 2 hilos
+    # t1 y t2 (join) terminene.
+    # observe la ejecución del script y vera que la secuencia tiene errores.
     logging.info(f"Valor final del contador:, {counter}")
