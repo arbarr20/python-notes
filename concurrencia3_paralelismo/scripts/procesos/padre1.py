@@ -100,7 +100,7 @@ class Channel(object):
 
 if __name__ == '__main__':
     import subprocess
-    p = subprocess.Popen(['python3', 'ruta/hijo1.py'],
+    p = subprocess.Popen(['python3', 'hijo1.py'],
                          stdin=subprocess.PIPE,
                          stdout=subprocess.PIPE)
     ch = Channel(p.stdin, p.stdout)
